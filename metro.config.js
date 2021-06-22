@@ -12,7 +12,9 @@ module.exports = {
         experimentalImportSupport: false,
         inlineRequires: true,
       },
-     
+      resolver: {
+        assetExts: ['tflite', 'txt', 'jpg']
+      },
     
     }),
   },
